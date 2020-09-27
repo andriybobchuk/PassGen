@@ -12,10 +12,11 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("Home.fxml"));
-        primaryStage.setTitle("Генератор паролів");
+        primaryStage.setTitle("PassGen");
         primaryStage.setScene(new Scene(root, 563, 442));
         primaryStage.setResizable(false);//Locks the window size
-        primaryStage.getIcons().add(new Image("file:D:/DOCUMENTS/PassGen/src/favicon.png"));
+      //  primaryStage.getIcons().add(new Image("file:D:/DOCUMENTS/PassGen/src/favicon.png"));
+        primaryStage.getIcons().add(new Image(Main.class.getResourceAsStream("icon.png")));
         primaryStage.show();
     }
 

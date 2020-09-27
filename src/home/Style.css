@@ -1,0 +1,17 @@
+
+.btn-Generate
+{
+-fx-background-color :    #f5f5f5;
+-fx-text-fill : #545252;
+-fx-background-radius: 0;
+
+}
+.btn-Generate:hover{
+-fx-background-color :  #1a7cc9;
+-fx-text-fill : WHITE;
+
+}
+.btn-Generate:pressed
+{
+-fx-background-color : #15629e;
+}
