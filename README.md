@@ -7,6 +7,9 @@ Enjoy your experience!
 
 ## Screnshots
 
+![One](/Screenshots/1.png)
+![Two](/Screenshots/2.png)
+
 ## Technical Part
 
 Language: JAVA 15 (JavaFX 15 UI) + CSS + HTML;
